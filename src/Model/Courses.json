@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "title": "Digital Inovation One - Bootcamp Desenvolvedor Full Stack React",
+        "desc": "Um curso completo sobre a Biblioteca React, que aborda temas sobre a tecnologia e como fazer melhor proveito dela como Hooks e Props. O curso também aborda tecnologias de bacno de dados e containers como MongoDB e Docker.",
+        "cargh": "95 hrs",
+        "logo": "https://th.bing.com/th/id/R.4d7bc66f9cdaf05561a1e093f38faa13?rik=EpzIi419YdgECg&pid=ImgRaw&r=0"
+    },
+    {
+        "id": 2,
+        "title": "SENAC - Desenvolvimento de aplicativos Móveis",
+        "desc": "Curso sobre desenvolvimeto mobile e frameworks. Aprendi como funciona um framework híbrido, como postar um aplicativo na sua respectiva plataforma mobile, Web Services, Autenticação e gerenciamento de Armazenamento.",
+        "cargh": "4 Meses",
+        "logo": "https://www.calendariodovestibular.com.br/wp-content/uploads/2013/03/RS_SENAC_LOGO.jpg"
+    },
+    {
+        "id": 3,
+        "title": "USP - UX/UI: Fundamentos para o design de inteface",
+        "desc": "Nele o aprofundamento no UI/UX é o foco. Aprendi a como conduzir uma pesquisa ao usuário, Jobs to Be Done E Persona, Prótotipos, Anàlise de arquiterura.",
+        "cargh": "<20 hrs",
+        "logo": "https://th.bing.com/th/id/R.3b57c0651a0425f2b25c51f704e39d4e?rik=crQR1ySHkaFoMQ&riu=http%3a%2f%2f4vector.com%2fi%2ffree-vector-usp-0_051258_usp-0.png&ehk=SrWdKC7LfAdBPGQbZhvWzswm1kSnEVCc3dmlo8HEcTs%3d&risl=&pid=ImgRaw&r=0"
+    },
+    {
+        "id": 4,
+        "title": "IF - Banco de Dados",
+        "desc": "Curso disponibilizado pelo Instuto Federal. Aprendi os conceitos e fundamentos de Banco de Dados como Sistema de gerenciamento de Banco de Dados, liguagem SQL, Modelos e abstração de Dados.",
+        "cargh": "<50 hrs",
+        "logo": "https://www.ifpb.edu.br/materias/prpipg-publica-edital-de-cadastro-de-docentes/logo-nova-ifpb.jpg/@@images/b65f94bb-243b-4518-8ad4-ea1cc0caca54.jpeg"
+    }
+]

@@ -1,0 +1,226 @@
+.HomePage {
+    overflow: hidden;
+    align-items: center;
+    background-image: linear-gradient(40deg, rgb(50, 203, 250), rgb(255, 255, 255));
+}
+.HomePage .circle {
+    width: 400px;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+    /* border: 1px solid #d0ff00; */
+}
+.circle .circleUp {
+    width: 250px;
+    height: 250px;
+    background-color: rgb(70, 206, 255);
+    border-radius: 50%;
+    position: relative;
+    right: 80px;
+    bottom: 80px;
+}
+.circle .circleDown {
+    width: 190px;
+    height: 190px;
+    background-color: #0193c0;
+    border-radius: 50%;
+    position: relative;
+    right: 80px;
+    top: 80px;
+}
+.cont {
+    position: relative;
+    height: 100vh;
+    width: 50vw;
+}
+.title {
+    padding-top: 20px;
+    padding-left: 40px;
+}
+.title h1 {
+    font-size: 45px;
+}
+.title h2 {
+    font-size: 20px;
+}
+.buttons {
+    padding-inline: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.buttons .options {
+    padding-block: 13px;
+    flex-direction: column;
+    padding-inline: 80px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    background-color: rgb(70, 206, 255);
+    border-radius: 20px;
+    transition: all 1s;
+    text-decoration: none;
+    /* background-image: linear-gradient(40deg, rgb(0, 255, 217), rgb(125, 125, 125)); */
+}
+.contateDiv {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100%;
+    align-items: center;
+    z-index: 10;
+}
+.photoresp {
+    display: none;
+}
+.buttons div h1 {
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    font-weight: 200;
+}
+.optionsRs {
+    padding-inline: 50px;
+}
+.optionsRs a {
+    border-radius: 10px;
+    padding-block: 5px;
+    margin-top: 10px;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 100;
+    font-size: 15px;
+    letter-spacing: 0px;
+    transition: all 1s;
+}
+.optionsRs a:hover {
+    background-color: rgb(0, 229, 255);
+    letter-spacing: 1px;
+}
+.options .Port {
+    font-size: 35px;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    font-weight: 600;
+    background-image: linear-gradient(25deg, rgb(185, 203, 250), rgb(255, 255, 255), rgb(216, 226, 252));
+    color: #000;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 0px;
+    transition: letter-spacing .1s;
+    cursor: pointer;
+}
+.options:hover {
+    background-color: rgb(14, 14, 14);
+}
+.buttons .options h1 {
+    display: none;
+}
+.options .Port i {
+    font-size: 40px;
+    margin-left: 10px;
+    background-color: rgb(255, 255, 255);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.photo {
+    height: 100vh;
+    display: flex;
+    justify-content: end;
+    width: 100vw;
+    position: absolute;
+}
+.optionsRs i {
+    position: relative;
+    margin-left: 20px;
+}
+.buttons .titleBut {
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 30px;
+    justify-content: center;
+    display: inline-flex;
+    position: relative;
+}
+.titleBut li {
+    justify-content: center;
+    text-decoration: none;
+    text-transform: none;
+    display: flex;
+    list-style: none;
+    overflow: hidden;
+    height: 100%;
+    position: relative;
+}
+.titleBut .dinamic {
+    margin-left: 15px;
+    line-height: 30px;
+    height: 30px;
+    overflow: hidden;
+    position: relative;
+}
+.centerContate {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.dinamic li {
+    font-size: 30px;
+    left: 0;
+    position: relative;
+    animation: slide 8s steps(2) infinite;
+}
+.dinamic li span {
+    overflow: hidden;
+    position: relative;
+}
+@keyframes slide {
+    100% {
+        top: -30px;
+    }
+
+}
+
+
+
+
+/* -------------------------------------- SMALLS SCREENS --------------------------------------*/
+
+
+@media (max-width: 970px) {
+
+
+    .title {
+        width: 85vw;
+    }
+    .buttons {
+        width: 80%;
+        padding: 30px;
+        border-radius: 20px;
+        background-color: rgba(0, 157, 255, 0.652);
+    }
+    .options i {
+        display: none;
+    }
+    .buttons .options {
+        padding-inline: 10px;
+    }
+}
+
+@media (max-height: 570px) {
+    .title h2{
+        display: none;
+    }
+
+}

@@ -1,0 +1,86 @@
+.footer{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(40deg, rgb(0, 0, 0), rgb(67, 74, 76));
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: end;
+}
+.footer .footerDiv{
+    background-color: rgb(255, 255, 255);
+    height: 45vh;
+    transform: rotateZ(-2deg) scale(1.5);
+    padding-top: 50px;
+    align-items: flex-start;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.footer .aboutTitle{
+    width: 100vw;
+    height: 400px;
+    background-color: rgba(192, 1, 81, 0);
+    border-radius: 0%;
+    position: relative;
+    right: 0px;
+    bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding-left: 50px;
+    color: white;
+}
+.footerDiv .footerText{
+    transform: rotateZ(2deg) scale(1);
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+.footerDiv h3{
+    font-size: 25px;
+}
+.footer .footerInfo{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-top: 10px;
+    align-items: center;
+}
+.footerInfo p{
+    font-size: 8px;
+    margin-top: 20px;
+}
+
+.footerInfo h4{
+    font-size: 10px;
+    font-weight: 400;
+}
+
+
+
+
+/* -------------------------------------- SMALLS SCREENS --------------------------------------*/
+
+
+@media (max-width:  970px) {
+    .footer .aboutTitle{
+        width: 100vw;
+        height: 400px;
+        background-color: rgba(192, 1, 81, 0);
+        border-radius: 0%;
+        position: relative;
+        right: 0px;
+        bottom: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        padding-left: 50px;
+        color: white;
+    }
+}

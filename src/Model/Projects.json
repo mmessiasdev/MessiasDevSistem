@@ -1,0 +1,70 @@
+[
+    {
+        "id": 1,
+        "title": "Movietips",
+        "desc": "Projeto Criado a partir de uma necessidade que eu recebi de um amigo, onde ele estava com dificuldade de achar filmes para assistir. À partir desse princípio, criei uma aplicação que recomenda filmes que estão em alta e são melhores avaliados por meio de uma API confiável. Futuramente quero colocar um sistema de filtro para melhorar ainda mais a expência do usuário.",
+        "applications": "React - Js, Html, Css, TypeScript, Hooks; Rest API; Figma",
+        "github": "https://github.com/mmessiasdev/Movietips",
+        "post1": "https://i.imgur.com/G8eemjY.png",
+        "post2": "https://i.imgur.com/u2JePW5.png",
+        "post3": "https://i.imgur.com/XZDzgIH.png",
+        "video": "https://i.imgur.com/EPM0XYa.mp4"
+    },
+    {
+        "id": 2,
+        "title": "Buski Cep",
+        "desc": "Aplicação relativamente simples, onde busca o cep de qualquer lugar do Brasil.",
+        "applications": "React - Js, Html, Css, TypeScript, Hooks; Rest API; Figma; PWA",
+        "github": "https://github.com/mmessiasdev/BuskiCep",
+        "post1": "https://i.imgur.com/JswQ7Lj.png",
+        "post2": "https://i.imgur.com/5l3qw2G.png",
+        "post3": "https://i.imgur.com/yWd8lV6.png",
+        "video": "https://i.imgur.com/0Bc7mRi.mp4"
+    },
+    {
+        "id": 3,
+        "title": "Kota",
+        "desc": "Site que busca a cotação das prinicpais moedas da atualade (incluindo Criptos). Atualizada aultomaticamente a cada 30 segundos por meio de uma API.",
+        "applications": "Js, Html, Css; Rest API; PWA",
+        "github": "https://github.com/mmessiasdev/Kota",
+        "post1": "https://i.imgur.com/q145Ahc.png",
+        "post2": "https://i.imgur.com/wDPpB69.png",
+        "post3": "https://i.imgur.com/z44O9Xz.png",
+        "video": "https://i.imgur.com/shJma82.mp4"
+        
+    },
+    {
+        "id": 4,
+        "title": "Fabiano Seixas",
+        "desc": "Projeto freelancer com o objetivo de apresentar a firma de advocacia para os novos usuários e direcioná-lo para um chatbot hospedado no WhatsApp da assistente virtual. (todo sistema e chatbot foi criado inteiramente por mim).",
+        "applications": "Html, Css, JavaScript; Dialog Flow; API WhatsApp; UI/UX - Adobe.",
+        "github": "https://github.com/mmessiasdev/FabianoJudiciarioSistem",
+        "post1": "https://i.imgur.com/lCSWFfj.png",
+        "post2": "https://i.imgur.com/OaMELY3.png",
+        "post3": "https://i.imgur.com/r3lddoY.png",
+        "video": "https://i.imgur.com/ZK2mK14.mp4"
+    },
+    {
+        "id": 5,
+        "title": "Lobflix",
+        "desc": "Site inspirado na Netflix e com o intuito de apresentar minhas tecnicas em Css. Criei quando estava aprendendo HTML CSS JavaScript. Não quis copiar literalmente o site, então fiz um estilo que se encaixasse mais no meu tipo de design e também personalizei os banners no PhotoShop.",
+        "applications": "HTML CSS JS, Photoshop",
+        "github": "https://github.com/mmessiasdev/Netflix",
+        "post1": "https://i.imgur.com/pUG6kWj.png",
+        "post2": "https://i.imgur.com/NzhxeB7.png",
+        "post3": "https://i.imgur.com/c9IuIwA.png",
+        "video": "https://i.imgur.com/Bz38we1.mp4"
+    },
+    {
+        "id": 5,
+        "title": "Movietips Mb.",
+        "desc": "Versão do Movietips para mobile, com layout dinâmico e agradável e design totalmente exclusivo.",
+        "applications": "Flutter.",
+        "github": "https://github.com/mmessiasdev/Movietips",
+        "post1": "https://i.imgur.com/g7SGqYw.png",
+        "post2": "https://i.imgur.com/pLGltn5.png",
+        "post3": "https://i.imgur.com/jUyFWSN.png",
+        "video": "https://i.imgur.com/SRBYMa6.mp4"
+    }
+    
+]
