@@ -1,5 +1,5 @@
 # M. Messias Developer Portfólio
-## Versão 1.1
+## Versão 1.0
 ### - Respnsivo
 ### - Animado
 ### - UX/UI Pronto
